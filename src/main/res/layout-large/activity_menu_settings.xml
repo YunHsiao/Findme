@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingsrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu_main" >
+    
+    <RelativeLayout 
+   		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_centerHorizontal="true"
+    	android:layout_centerVertical="true"
+    	android:background="@drawable/bg_settings" >    
+    
+	    <Button
+	        android:id="@+id/musicswitch"
+	        android:layout_width="205dp"
+	        android:layout_height="56dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_above="@+id/soundswitch"
+	        android:background="@drawable/btn_music_on" />
+	    
+	    <Button
+	        android:id="@+id/soundswitch"
+	        android:layout_width="207dp"
+	        android:layout_height="56dp"
+	        android:layout_above="@+id/freetime"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="7dp"
+	        android:background="@drawable/btn_sound_off" />
+	
+	    <EditText
+	        android:id="@+id/freetime"
+	        android:hint="@string/freetime"
+	        android:layout_width="180dp"
+	        android:layout_height="50dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/settingstv"
+	        android:layout_marginTop="7dp"
+	        android:inputType="number"
+	        android:textColorHint="@color/black_overlay"
+	        android:gravity="center_horizontal|center_vertical"
+	        android:background="@drawable/editor_settings" />
+	
+	    <Button
+	        android:id="@+id/apply"
+	        android:layout_width="121dp"
+	        android:layout_height="49dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/freetime"
+	        android:layout_marginTop="50dp"
+	        android:background="@drawable/btn_settings_ok" />
+	    
+	    <TextView
+	        android:id="@+id/settingstv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:width="200dp"
+	        android:height="10dp" />
+	    
+	</RelativeLayout>
+	
+</RelativeLayout>

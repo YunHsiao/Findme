@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/moderl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu_mode"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/mmrl"
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerHorizontal="true"
+    	android:layout_centerVertical="true" >
+        
+	    <Button
+	        android:id="@+id/textMode"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:background="@drawable/btn_menu_text" />
+	        <!--
+	        android:height="30dp"
+	        android:text="@string/text"
+	       	android:width="200dp"-->
+	        
+	    <Button
+	        android:id="@+id/graphicMode"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/textMode"
+            style="@style/modeB"
+	        android:background="@drawable/btn_menu_graphic" />
+	        <!--
+	        android:height="30dp"
+	        android:text="@string/graphic"
+	        android:width="200dp" -->
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/textMode"
+	        android:height="200dp" />
+
+	</RelativeLayout>
+
+    <Button
+        android:id="@+id/ModeBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mdrl"
+        android:background="@drawable/btn_menu_back" />
+
+    <RelativeLayout
+        android:id="@+id/mdrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+        
+        <TextView
+            android:id="@+id/mdtv"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/modeD" />
+
+        <Button
+            android:id="@+id/teasyMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_below="@+id/mdtv"
+            android:background="@drawable/btn_menu_easy" />
+
+        <Button
+            android:id="@+id/thardMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/teasyMode"
+            android:layout_below="@+id/teasyMode"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/btn_menu_hard" />
+
+        <Button
+            android:id="@+id/tfreeMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/teasyMode"
+            android:layout_below="@+id/thardMode"
+            android:background="@drawable/btn_menu_free" />
+        
+        <Button
+            android:id="@+id/geasyMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/mdtv"
+            android:layout_below="@+id/mdtv"
+            android:background="@drawable/btn_menu_easy" />
+
+        <Button
+            android:id="@+id/ghardMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_below="@+id/geasyMode"
+            android:layout_marginLeft="15dp"
+			android:layout_alignLeft="@+id/geasyMode"
+            android:background="@drawable/btn_menu_hard" />
+
+        <Button
+            android:id="@+id/gfreeMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_below="@+id/ghardMode"
+			android:layout_alignRight="@+id/geasyMode"
+            android:background="@drawable/btn_menu_free" />
+        
+    </RelativeLayout>
+	
+</RelativeLayout>    

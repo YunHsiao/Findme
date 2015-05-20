@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resultrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_result_2" >
+    
+    <RelativeLayout 
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerHorizontal="true"
+    	android:layout_centerVertical="true" >    
+
+        <TextView
+            android:id="@+id/rstv"
+            android:layout_height="420dp"
+            android:layout_width="400dp"
+            android:layout_centerHorizontal="true"/>
+
+	    <TextView
+	        android:id="@+id/scinfo"
+	        android:layout_width="108dp"
+	        android:layout_height="41dp"
+	        android:layout_below="@+id/rstv"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/bg_result_score"/>
+
+	    <TextView
+	        android:id="@+id/score"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/scinfo"
+	        android:layout_marginLeft="5dp"
+	        android:layout_toRightOf="@+id/scinfo"
+	        android:hint="@string/score"
+	        android:textSize="40sp" />
+
+	    <Button
+	        android:id="@+id/jp_exit"
+	        android:layout_width="108dp"
+	        android:layout_height="114dp"
+            android:layout_below="@+id/scinfo"
+            android:layout_marginTop="140dp"
+	        android:background="@drawable/btn_result_exit" />
+
+	    <Button
+	        android:id="@+id/jp_next"
+	        android:layout_width="110dp"
+	        android:layout_height="112dp"
+	        android:layout_toRightOf="@+id/jp_exit"
+            android:layout_marginLeft="20dp"
+            android:layout_alignBottom="@+id/jp_exit"
+	        android:background="@drawable/btn_result_again" />
+
+	    <TextView
+	        android:id="@+id/results"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:hint="@string/result"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textSize="42sp"
+            android:visibility="gone"/>
+	    
+	</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ad_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <com.inmobi.monetization.IMBanner
+            android:id="@+id/banner"
+            android:layout_width="468dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_imbanner"
+            android:layout_centerHorizontal="true"
+            adSize="12"
+            appId="@string/resID" />
+
+    </RelativeLayout>
+	    
+</RelativeLayout>

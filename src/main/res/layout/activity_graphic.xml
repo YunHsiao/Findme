@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/graphicrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_game" >
+
+    <RelativeLayout
+        android:id="@+id/gbgpause"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_pause"
+        android:visibility="gone">
+    </RelativeLayout>
+    
+	<Button
+	    android:id="@+id/gpause"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:layout_alignParentRight="true"
+	    android:background="@drawable/btn_pause" />
+	
+    <RelativeLayout
+        android:id="@+id/gmatrix"
+   		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+    	android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/gm"
+            android:layout_width="wrap_content"
+            style="@style/gm" />
+
+	    <ImageView
+	        android:id="@+id/g01"
+            style="@style/Graphic"
+	        android:contentDescription="@string/graphicdes"
+            android:layout_below="@+id/gm"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g02"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g01"
+	        android:layout_alignBottom="@+id/g01"
+	        android:layout_toRightOf="@+id/g01"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_l"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g03"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g02"
+	        android:layout_alignBottom="@+id/g02"
+	        android:layout_toRightOf="@+id/g02"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_l"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g04"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g03"
+	        android:layout_alignBottom="@+id/g03"
+	        android:layout_toRightOf="@+id/g03"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_l"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g05"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g04"
+	        android:layout_alignBottom="@+id/g04"
+	        android:layout_toRightOf="@+id/g04"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_l"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g06"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g05"
+	        android:layout_alignBottom="@+id/g05"
+	        android:layout_toRightOf="@+id/g05"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_l"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g07"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_below="@+id/g01"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_u"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g08"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g07"
+	        android:layout_alignBottom="@+id/g07"
+	        android:layout_toRightOf="@+id/g07"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g09"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g08"
+	        android:layout_alignBottom="@+id/g08"
+	        android:layout_toRightOf="@+id/g08"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu" />
+	
+	    <ImageView
+	        android:id="@+id/g10"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g09"
+	        android:layout_alignBottom="@+id/g09"
+	        android:layout_toRightOf="@+id/g09"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu" />
+	
+	    <ImageView
+	        android:id="@+id/g11"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g10"
+	        android:layout_alignBottom="@+id/g10"
+	        android:layout_toRightOf="@+id/g10"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g12"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g11"
+	        android:layout_alignBottom="@+id/g11"
+	        android:layout_toRightOf="@+id/g11"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g13"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_below="@+id/g07"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_u"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g14"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g13"
+	        android:layout_alignBottom="@+id/g13"
+	        android:layout_toRightOf="@+id/g13"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g15"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g14"
+	        android:layout_alignBottom="@+id/g14"
+	        android:layout_toRightOf="@+id/g14"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g16"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g15"
+	        android:layout_alignBottom="@+id/g15"
+	        android:layout_toRightOf="@+id/g15"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g17"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g16"
+	        android:layout_alignBottom="@+id/g16"
+	        android:layout_toRightOf="@+id/g16"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g18"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g17"
+	        android:layout_alignBottom="@+id/g17"
+	        android:layout_toRightOf="@+id/g17"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g19"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_below="@+id/g13"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_u"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g20"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g19"
+	        android:layout_alignBottom="@+id/g19"
+	        android:layout_toRightOf="@+id/g19"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g21"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g20"
+	        android:layout_alignBottom="@+id/g20"
+	        android:layout_toRightOf="@+id/g20"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g22"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g21"
+	        android:layout_alignBottom="@+id/g21"
+	        android:layout_toRightOf="@+id/g21"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g23"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g22"
+	        android:layout_alignBottom="@+id/g22"
+	        android:layout_toRightOf="@+id/g22"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g24"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g23"
+	        android:layout_alignBottom="@+id/g23"
+	        android:layout_toRightOf="@+id/g23"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g25"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_below="@+id/g19"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_u"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g26"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g25"
+	        android:layout_alignBottom="@+id/g25"
+	        android:layout_toRightOf="@+id/g25"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g27"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g26"
+	        android:layout_alignBottom="@+id/g26"
+	        android:layout_toRightOf="@+id/g26"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g28"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g27"
+	        android:layout_alignBottom="@+id/g27"
+	        android:layout_toRightOf="@+id/g27"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_01"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g29"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g28"
+	        android:layout_alignBottom="@+id/g28"
+	        android:layout_toRightOf="@+id/g28"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g30"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g29"
+	        android:layout_alignBottom="@+id/g29"
+	        android:layout_toRightOf="@+id/g29"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g31"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_below="@+id/g25"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_u"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g32"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g31"
+	        android:layout_alignBottom="@+id/g31"
+	        android:layout_toRightOf="@+id/g31"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g33"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g32"
+	        android:layout_alignBottom="@+id/g32"
+	        android:layout_toRightOf="@+id/g32"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g34"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g33"
+	        android:layout_alignBottom="@+id/g33"
+	        android:layout_toRightOf="@+id/g33"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g35"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g34"
+	        android:layout_alignBottom="@+id/g34"
+	        android:layout_toRightOf="@+id/g34"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g36"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g35"
+	        android:layout_alignBottom="@+id/g35"
+	        android:layout_toRightOf="@+id/g35"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g37"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_below="@+id/g31"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_u"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g38"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g37"
+	        android:layout_alignBottom="@+id/g37"
+	        android:layout_toRightOf="@+id/g37"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g39"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g38"
+	        android:layout_alignBottom="@+id/g38"
+	        android:layout_toRightOf="@+id/g38"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g40"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g39"
+	        android:layout_alignBottom="@+id/g39"
+	        android:layout_toRightOf="@+id/g39"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g41"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g40"
+	        android:layout_alignBottom="@+id/g40"
+	        android:layout_toRightOf="@+id/g40"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g42"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g41"
+	        android:layout_alignBottom="@+id/g41"
+	        android:layout_toRightOf="@+id/g41"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	    
+	    <ImageView
+	        android:id="@+id/g43"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_below="@+id/g37"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_u"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g44"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g43"
+	        android:layout_alignBottom="@+id/g43"
+	        android:layout_toRightOf="@+id/g43"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g45"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g44"
+	        android:layout_alignBottom="@+id/g44"
+	        android:layout_toRightOf="@+id/g44"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g46"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g45"
+	        android:layout_alignBottom="@+id/g45"
+	        android:layout_toRightOf="@+id/g45"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g47"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g46"
+	        android:layout_alignBottom="@+id/g46"
+	        android:layout_toRightOf="@+id/g46"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g48"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g47"
+	        android:layout_alignBottom="@+id/g47"
+	        android:layout_toRightOf="@+id/g47"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />    
+	        
+	   <ImageView
+	        android:id="@+id/g49"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_below="@+id/g43"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+           android:background="@drawable/lattice_u"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g50"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g49"
+	        android:layout_alignBottom="@+id/g49"
+	        android:layout_toRightOf="@+id/g49"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g51"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g50"
+	        android:layout_alignBottom="@+id/g50"
+	        android:layout_toRightOf="@+id/g50"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g52"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g51"
+	        android:layout_alignBottom="@+id/g51"
+	        android:layout_toRightOf="@+id/g51"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g53"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g52"
+	        android:layout_alignBottom="@+id/g52"
+	        android:layout_toRightOf="@+id/g52"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	
+	    <ImageView
+	        android:id="@+id/g54"
+	        android:contentDescription="@string/graphicdes"
+	        android:layout_alignBaseline="@+id/g53"
+	        android:layout_alignBottom="@+id/g53"
+	        android:layout_toRightOf="@+id/g53"
+	        style="@style/Graphic"
+	        android:src="@drawable/image_01_00"
+            android:background="@drawable/lattice_lu"
+	         />
+	    
+	</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/gf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gtimer"
+        android:layout_toRightOf="@+id/gtimer"
+        android:contentDescription="@string/graphicdes"
+        android:src="@drawable/image_01_00"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/gt"
+        android:contentDescription="@string/graphicdes"
+        android:layout_alignBottom="@+id/gtimer"
+        android:layout_toRightOf="@id/gtimer"
+        android:layout_marginLeft="10dp"
+        style="@style/Graphic"
+        android:src="@drawable/image_01_01" />
+	
+	<TextView
+	    android:id="@+id/gtimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Timer"
+        android:hint="@string/time"
+        android:textSize="30sp"
+        android:background="@drawable/tv_timer"
+        android:gravity="bottom|center_horizontal" />
+	
+	<RelativeLayout
+	    android:id="@+id/grl"
+   		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:visibility="gone" >
+
+        <Button
+            android:id="@+id/gresume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="61dp"
+            android:height="52dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/btn_resume" />
+
+        <TextView
+            android:id="@+id/ggtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/gptv"
+            android:layout_toRightOf="@+id/gresume"
+            style="@style/ResumeMargin" />
+
+        <Button
+            android:id="@+id/gexit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="57dp"
+            android:height="54dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/ggtv"
+            android:layout_above="@+id/gptv"
+            android:background="@drawable/btn_game_exit" />
+
+        <TextView
+            android:id="@+id/gptv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gresume"
+            android:height="50dp" />
+		
+	</RelativeLayout>
+	
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Graphic">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="gm">
+        <item name="android:layout_height">20dp</item>
+    </style>
+    <style name="Level">
+        <item name="android:width">100dip</item>
+        <item name="android:height">100dip</item>
+    </style>
+    <style name="Text">
+        <item name="android:textSize">38sp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_width">39dp</item>
+    </style>
+    <style name="Timer">
+        <item name="android:layout_marginTop">13sp</item>
+    </style>
+    <style name="WidgetText">
+        <item name="android:textSize">40sp</item>
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="WidgetLayout">
+        <item name="android:layout_height">44dp</item>
+    </style>
+    <style name="ResumeMargin">
+        <item name="android:width">150sp</item>
+        <item name="android:height">50sp</item>
+    </style>
+    <style name="Matrix">
+        <item name="android:layout_marginTop">90sp</item>
+    </style>
+    <style name="credit">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">100sp</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="s_a">
+        <item name="android:layout_marginTop">100sp</item>
+    </style>
+    <style name="statSource">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="stats">
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="achieve">
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="mainachieve">
+        <item name="android:width">80sp</item>
+        <item name="android:height">50sp</item>
+    </style>
+    <style name="stat">
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="splash">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="splashB">
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <style name="share">
+        <item name="android:height">250sp</item>
+    </style>
+    <style name="modeD">
+        <item name="android:height">80sp</item>
+        <item name="android:width">250sp</item>
+    </style>
+    <style name="modeB">
+        <item name="android:layout_marginLeft">10sp</item>
+    </style>
+</resources>

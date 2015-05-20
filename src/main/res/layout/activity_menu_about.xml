@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aboutrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_about" >
+
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/credit"
+        android:text="@string/credit"
+        android:textColor="@color/holo_normal" />
+	
+    <RelativeLayout
+        android:id="@+id/abrl"
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerHorizontal="true"
+    	android:layout_centerVertical="true" >    
+
+        <TextView
+            android:id="@+id/abtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="130dp"
+            android:height="180dp"/>
+        
+	    <Button
+	        android:id="@+id/feedback"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_below="@+id/abtv"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@+id/abtv2"
+            android:text="@string/feedback" />
+	        <!--
+	        android:height="30dp"
+	        android:text="@string/text"
+	       	android:width="200dp"-->
+
+        <TextView
+            android:id="@+id/abtv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/feedback"
+            android:width="10dp"
+            android:height="40dp" />
+
+        <Button
+	        android:id="@+id/abback"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/feedback"
+            android:layout_alignBottom="@+id/feedback"
+            android:layout_marginLeft="10dp"
+	        android:text="@string/ch_back" />
+	        <!--
+	        android:height="30dp"
+	        android:text="@string/exit"
+	        android:width="200dp" -->
+
+	</RelativeLayout>
+
+</RelativeLayout>

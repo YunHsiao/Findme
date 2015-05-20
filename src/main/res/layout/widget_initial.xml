@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/widget_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            style="@style/WidgetLayout">
+
+            <TextView
+                android:id="@+id/w01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            style="@style/WidgetLayout"
+            >
+
+            <TextView
+                android:id="@+id/w07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            style="@style/WidgetLayout" >
+
+            <TextView
+                android:id="@+id/w13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            style="@style/WidgetLayout" >
+
+            <TextView
+                android:id="@+id/w19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            style="@style/WidgetLayout" >
+
+            <TextView
+                android:id="@+id/w25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            style="@style/WidgetLayout" >
+
+            <TextView
+                android:id="@+id/w31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            style="@style/WidgetLayout" >
+
+            <TextView
+                android:id="@+id/w37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            style="@style/WidgetLayout" >
+
+            <TextView
+                android:id="@+id/w43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+            <TextView
+                android:id="@+id/w48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/context"
+                style="@style/WidgetText" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        style="@style/WidgetLayout" >
+
+        <TextView
+            android:id="@+id/w49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/context"
+            style="@style/WidgetText" />
+
+        <TextView
+            android:id="@+id/w50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/context"
+            style="@style/WidgetText" />
+
+        <TextView
+            android:id="@+id/w51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/context"
+            style="@style/WidgetText" />
+
+        <TextView
+            android:id="@+id/w52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/context"
+            style="@style/WidgetText" />
+
+        <TextView
+            android:id="@+id/w53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/context"
+            style="@style/WidgetText" />
+
+        <TextView
+            android:id="@+id/w54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/context"
+            style="@style/WidgetText" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <!--
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="4dip"
+        android:horizontalSpacing="4dip"
+        android:columnWidth="50dip"
+        android:gravity="center"
+        />-->
+
+</RelativeLayout>

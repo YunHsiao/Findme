@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash" >
+
+    <ViewFlipper
+        android:id="@+id/splashctn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_splash_continue"
+        android:visibility="gone"
+        android:inAnimation="@anim/push_in">
+        <!--android:outAnimation="@anim/push_out"-->
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/splashtv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/splashtv"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="32sp"
+        android:padding="8dp"/>
+
+</RelativeLayout>

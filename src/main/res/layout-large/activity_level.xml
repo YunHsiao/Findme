@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/levelrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_level_select"
+    android:longClickable="false" >
+
+    <!-- 
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/levelScrollView"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" > -->
+
+            <RelativeLayout
+                android:id="@+id/lvmatrix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+            	android:layout_centerVertical="true" >
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="300dp" />
+
+                <Button
+                    android:id="@+id/lv01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/lv02"
+                    android:layout_alignBottom="@+id/lv02"
+                    android:layout_toLeftOf="@+id/lv02"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_3"/>
+
+                <Button
+                    android:id="@+id/lv02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_3"/>
+
+                <Button
+                    android:id="@+id/lv03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/lv02"
+                    android:layout_alignBottom="@+id/lv02"
+                    android:layout_toRightOf="@+id/lv02"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_3" />
+
+                <Button
+                    android:id="@+id/lv04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/lv01"
+                    android:layout_below="@+id/lv01"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_2" />
+
+                <Button
+                    android:id="@+id/lv05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/lv04"
+                    android:layout_alignBottom="@+id/lv04"
+                    android:layout_toRightOf="@+id/lv04"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_2" />
+
+                <Button
+                    android:id="@+id/lv06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/lv05"
+                    android:layout_alignBottom="@+id/lv05"
+                    android:layout_toRightOf="@+id/lv05"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_2" />
+
+                <Button
+                    android:id="@+id/lv07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/lv04"
+                    android:layout_below="@+id/lv04"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_1" />
+
+                <Button
+                    android:id="@+id/lv08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/lv07"
+                    android:layout_alignBottom="@+id/lv07"
+                    android:layout_toRightOf="@+id/lv07"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_1" />
+
+                <Button
+                    android:id="@+id/lv09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/lv08"
+                    android:layout_alignBottom="@+id/lv08"
+                    android:layout_toRightOf="@+id/lv08"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_1" />
+
+                <Button
+                    android:id="@+id/lv10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/lv07"
+                    android:layout_below="@+id/lv07"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_0" />
+
+                <Button
+                    android:id="@+id/lv11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/lv10"
+                    android:layout_alignBottom="@+id/lv10"
+                    android:layout_toRightOf="@+id/lv10"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_0" />
+
+                <Button
+                    android:id="@+id/lv12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/lv11"
+                    android:layout_alignBottom="@+id/lv11"
+                    android:layout_toRightOf="@+id/lv11"
+                    style="@style/Level"
+                    android:textSize="50sp"
+                    android:background="@drawable/btn_level_0" />
+
+                <!--
+                <Button
+                        android:id="@+id/lv13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/lv10"
+                        android:layout_below="@+id/lv10"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv13"
+                        android:layout_alignBottom="@+id/lv13"
+                        android:layout_toRightOf="@+id/lv13"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv14"
+                        android:layout_alignBottom="@+id/lv14"
+                        android:layout_toRightOf="@+id/lv14"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/lv13"
+                        android:layout_below="@+id/lv13"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv16"
+                        android:layout_alignBottom="@+id/lv16"
+                        android:layout_toRightOf="@+id/lv16"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv17"
+                        android:layout_alignBottom="@+id/lv17"
+                        android:layout_toRightOf="@+id/lv17"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/lv16"
+                        android:layout_below="@+id/lv16"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv19"
+                        android:layout_alignBottom="@+id/lv19"
+                        android:layout_toRightOf="@+id/lv19"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv20"
+                        android:layout_alignBottom="@+id/lv20"
+                        android:layout_toRightOf="@+id/lv20"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/lv19"
+                        android:layout_below="@+id/lv19"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv22"
+                        android:layout_alignBottom="@+id/lv22"
+                        android:layout_toRightOf="@+id/lv22"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv23"
+                        android:layout_alignBottom="@+id/lv23"
+                        android:layout_toRightOf="@+id/lv23"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/lv22"
+                        android:layout_below="@+id/lv22"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv25"
+                        android:layout_alignBottom="@+id/lv25"
+                        android:layout_toRightOf="@+id/lv25"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv26"
+                        android:layout_alignBottom="@+id/lv26"
+                        android:layout_toRightOf="@+id/lv26"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/lv25"
+                        android:layout_below="@+id/lv25"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv28"
+                        android:layout_alignBottom="@+id/lv28"
+                        android:layout_toRightOf="@+id/lv28"
+                        
+                        style="@style/Level" />
+
+                <Button
+                        android:id="@+id/lv30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/lv29"
+                        android:layout_alignBottom="@+id/lv29"
+                        android:layout_toRightOf="@+id/lv29"
+                        
+                        style="@style/Level" />-->
+
+            </RelativeLayout>
+
+    <!-- </ScrollView> -->
+
+    <Button
+        android:id="@+id/levelback"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_menu_back"
+    />
+
+    <Button
+        android:id="@+id/levelprevious"
+        android:layout_width="102dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/levelback"
+        android:layout_toLeftOf="@+id/levelnext"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_lv_previous"/>
+
+    <Button
+        android:id="@+id/levelnext"
+        android:layout_width="100dp"
+        android:layout_height="88dp"
+        android:layout_alignBottom="@+id/levelback"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/btn_lv_next" />
+    <ImageView
+        android:id="@+id/levelBottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/graphicdes" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Graphic">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+    <style name="Level">
+        <item name="android:width">120dip</item>
+        <item name="android:height">120dip</item>
+    </style>
+    <style name="Text">
+        <item name="android:textSize">60sp</item>
+        <item name="android:layout_height">67dp</item>
+        <item name="android:layout_width">62dp</item>
+    </style>
+    <style name="WidgetText">
+        <item name="android:textSize">42sp</item>
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ResumeMargin">
+        <item name="android:width">90sp</item>
+        <item name="android:height">50sp</item>
+    </style>
+    <style name="Matrix">
+        <item name="android:layout_marginTop">140sp</item>
+    </style>
+    <style name="GMatrix">
+        <item name="android:layout_marginTop">150sp</item>
+    </style>
+    <style name="credit">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">140sp</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="s_a">
+        <item name="android:layout_marginTop">140sp</item>
+    </style>
+    <style name="statSource">
+        <item name="android:textSize">21sp</item>
+    </style>
+    <style name="free">
+        <item name="android:textSize">50sp</item>
+    </style>
+    <style name="stat">
+        <item name="android:textSize">41sp</item>
+    </style>
+    <style name="stats">
+        <item name="android:textSize">38sp</item>
+    </style>
+    <style name="achieve">
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="mainachieve">
+        <item name="android:width">110sp</item>
+        <item name="android:height">80sp</item>
+    </style>
+    <style name="share">
+        <item name="android:height">360sp</item>
+    </style>
+</resources>
